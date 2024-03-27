@@ -1,0 +1,19 @@
+---
+import Title from './Title.astro'
+import Osiris from './icons/Osiris.astro'
+type Props = {
+	title: string
+}
+
+const { title } = Astro.props
+const { desc } = Astro.props
+---
+
+<div class='flex justify-start items-center gap-2 title'>
+	<Osiris />
+	<Title>{title}</Title>
+</div>
+<h1 class='text-3xl font-light first-letter:uppercase'>
+{desc} 
+</h1>
+
