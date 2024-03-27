@@ -69,3 +69,9 @@
 		]
 	}
 }
+{
+  "name": "osiris-blog",
+  "version": "1.0.0",
+  "packageManager": "pnpm@6.0.2"
+}
+
