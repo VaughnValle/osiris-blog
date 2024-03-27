@@ -5,6 +5,7 @@
 	"description": "A template for creating a blog with Astro",
 	"author": "danielcgilibert",
 	"license": "GPL-3.0-only",
+	"packageManager": "pnpm@6.0.2",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/danielcgilibert/blog-template"
@@ -69,9 +70,3 @@
 		]
 	}
 }
-{
-  "name": "osiris-blog",
-  "version": "1.0.0",
-  "packageManager": "pnpm@6.0.2"
-}
-
